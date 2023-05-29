@@ -7,15 +7,18 @@ public class OnlyPositives {
 		Scanner scanner = new Scanner(System.in);
 		while (true) {
 			System.out.println("Give a number:");
-			int command = Integer.valueOf(scanner.nextLine());
-			if (command == 0) {
+			int number = Integer.valueOf(scanner.nextLine());
+		
+			if (number == 0) {
 				break;
 			}
-			if (command < 0) {
+		
+			if (number < 0) {
 				System.out.println("Unsuitable number");
 				continue;
 			}
-				System.out.println(command * command);
+		
+			System.out.println(number * number);
 		}
 	}
 }
