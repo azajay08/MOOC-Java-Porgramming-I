@@ -1,5 +1,5 @@
 
-public class ProgramBook {
+public class Program {
 
     public static void main(String[] args) {
         // This is simply an empty main method where you are

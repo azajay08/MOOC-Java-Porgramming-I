@@ -1,12 +1,12 @@
 
-public class MainHealthStation {
+public class Main {
 
 	public static void main(String[] args) {
 
 		HealthStation childrensHospital = new HealthStation();
 	
-		PersonHS ethan = new PersonHS("Ethan", 1, 110, 7);
-		PersonHS peter = new PersonHS("Peter", 33, 176, 85);
+		Person ethan = new Person("Ethan", 1, 110, 7);
+		Person peter = new Person("Peter", 33, 176, 85);
 	
 		System.out.println("weighings performed: " + childrensHospital.weighings());
 	

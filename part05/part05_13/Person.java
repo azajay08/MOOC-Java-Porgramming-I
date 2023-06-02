@@ -1,14 +1,14 @@
 
 import java.util.Objects;
 
-public class PersonTwins {
+public class Person {
 
 	private String name;
-	private SimpleDateTwins birthday;
+	private SimpleDate birthday;
 	private int height;
 	private int weight;
 
-	public PersonTwins(String name, SimpleDateTwins birthday, int height, int weight) {
+	public Person(String name, SimpleDate birthday, int height, int weight) {
 		this.name = name;
 		this.birthday = birthday;
 		this.height = height;
@@ -22,11 +22,11 @@ public class PersonTwins {
 			return true;
 		}
 
-		if (!(compared instanceof PersonTwins)) {
+		if (!(compared instanceof Person)) {
 			return false;
 		}
 
-		PersonTwins comparedPerson = (PersonTwins) compared;
+		Person comparedPerson = (Person) compared;
 
 		if (this.name.equals(comparedPerson.name)
 				&& this.birthday.equals(comparedPerson.birthday)

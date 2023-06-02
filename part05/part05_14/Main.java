@@ -2,11 +2,11 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MainBookComp {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		ArrayList<BookComp> books = new ArrayList<>();
+		ArrayList<Book> books = new ArrayList<>();
 
 		while (true) {
 			System.out.println("Name (empty will stop):");
@@ -17,7 +17,7 @@ public class MainBookComp {
 
 			System.out.println("Publication year:");
 			int publicationYear = Integer.valueOf(scanner.nextLine());
-			BookComp book = new BookComp(name, publicationYear);
+			Book book = new Book(name, publicationYear);
 			if (!books.contains(book)) {
 				books.add(book);
 			} else {

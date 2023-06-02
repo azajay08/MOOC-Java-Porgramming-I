@@ -1,5 +1,5 @@
 
-public class ProgramFitbyte {
+public class Program {
 
 	public static void main(String[] args) {
 		// This is an empty main method where you can experiment

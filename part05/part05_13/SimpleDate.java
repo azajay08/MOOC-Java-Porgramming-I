@@ -1,11 +1,11 @@
 
-public class SimpleDateTwins {
+public class SimpleDate {
 
     private int day;
     private int month;
     private int year;
 
-    public SimpleDateTwins(int day, int month, int year) {
+    public SimpleDate(int day, int month, int year) {
         this.day = day;
         this.month = month;
         this.year = year;
@@ -30,12 +30,12 @@ public class SimpleDateTwins {
         }
 
         // if the object is not instance of SimpleDate, the objects are not the same
-        if (!(compared instanceof SimpleDateTwins)) {
+        if (!(compared instanceof SimpleDate)) {
             return false;
         }
 
         // let's cast the object to SimpleDate
-        SimpleDateTwins otherDate = (SimpleDateTwins) compared;
+        SimpleDate otherDate = (SimpleDate) compared;
 
         // if the object's values are the same, the objects are the same
         if (this.day == otherDate.day

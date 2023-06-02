@@ -1,10 +1,10 @@
 
-public class BookComp {
+public class Book {
 
 	private String name;
 	private int publicationYear;
 
-	public BookComp(String name, int publicationYear) {
+	public Book(String name, int publicationYear) {
 		this.name = name;
 		this.publicationYear = publicationYear;
 	}
@@ -22,14 +22,14 @@ public class BookComp {
 			return true;
 		}
 
-		if (!(compared instanceof BookComp)) {
+		if (!(compared instanceof Book)) {
 			return false;
 		}
 
-		BookComp comparedBookComp = (BookComp) compared;
+		Book comparedBook = (Book) compared;
 
-		if (this.name.equals(comparedBookComp.name)
-				&& this.publicationYear == comparedBookComp.publicationYear) {
+		if (this.name.equals(comparedBook.name)
+				&& this.publicationYear == comparedBook.publicationYear) {
 			return true;
 		}
 
