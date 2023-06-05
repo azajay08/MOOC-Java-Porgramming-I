@@ -1,7 +1,7 @@
 // import java.util.Scanner;
 
 
-public class MainProgramPaymentCard {
+public class MainProgram {
 
 	public static void main(String[] args) {
 		// Scanner scanner = new Scanner(System.in);
@@ -28,6 +28,7 @@ public class MainProgramPaymentCard {
 
 		System.out.println("Paul: " + paulsCard.toString());
 		System.out.println("Matt: " + mattsCard.toString());
+		
 
 		// Here you can write code to test that PaymentCard works as intended
 		// be sure to erase the extra code for the last part of the exercise!

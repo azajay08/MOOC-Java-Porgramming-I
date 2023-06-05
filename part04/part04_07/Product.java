@@ -4,9 +4,9 @@ public class Product {
 	private String name;
 
 	public Product (String initialName, double initialPrice, int initialQuantity) {
-		this.name = initialName;
-		this.price = initialPrice;
-		this.quantity = initialQuantity;
+		name = initialName;
+		price = initialPrice;
+		quantity = initialQuantity;
 	}
 
 	public void printProduct() {
